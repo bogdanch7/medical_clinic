@@ -112,6 +112,7 @@ Programarea este eliminată din lista programari, iar operațiunea este confirma
 Această opțiune încheie sesiunea curentă, setează logat = False și afișează un mesaj de rămas bun: "Vă mulțumim că ați ales serviciile clinicii noastre! La revedere!". Aplicația se închide.
 
 - Comportament în Caz de Intrare Invalidă
+
 Dacă utilizatorul introduce o opțiune numerică invalidă (care nu se află în lista de opțiuni disponibile) în oricare meniu, sistemul afișează mesajul "Operație invalidă!" și meniul este reafișat, permițând utilizatorului să încerce din nou.
 
 ---
