@@ -11,6 +11,7 @@ Sistemul oferă un set de funcționalități pentru gestionarea completă a prog
 - Autentificare utilizator:
 
 Creare cont nou: Permite utilizatorilor să-și înregistreze un nume de utilizator și o parolă, stocate temporar în memoria aplicației (dicționarul users).
+
 Conectare: Verifică numele de utilizator și parola introduse față de cele înregistrate. O autentificare reușită oferă acces la meniul principal al aplicației.
 
 - Management Programări:
@@ -26,6 +27,7 @@ Anulare programare: Elimină o programare din listă, specificată de utilizator
 - Filtrare Programări:
 
 După numele medicului: Utilizatorul introduce numele unui medic, iar sistemul afișează toate programările asociate acelui medic.
+
 După numele pacientului: Utilizatorul introduce numele unui pacient, iar sistemul afișează toate programările asociate acelui pacient.
 
 - Calcul costuri:
@@ -66,6 +68,7 @@ Odată autentificat, utilizatorul are acces la meniul principal al sistemului de
 1. Fă o programare la clinica noastră.
 
 Utilizatorul este ghidat să introducă secvențial: numele pacientului, numele medicului, data analizei (ZZ/LL), numele analizei, durata (minute), ora (HH:MM) și prețul (RON).
+
 După introducerea tuturor datelor, programarea este adăugată, iar sistemul afișează "Ați adăugat o nouă programare!".
 
 2. Pentru a afișa programările.
@@ -75,27 +78,33 @@ Aplicația listează toate programările înregistrate, prezentând detaliile co
 3. Pentru a modifica datele unei programări.
 
 Utilizatorul introduce poziția numerică (indexul) programării în listă.
+
 Aplicația solicită apoi introducerea noilor valori pentru toate câmpurile programării respective.
+
 Mesajul "Ați modificat detaliile programării!" confirmă actualizarea.
 
 4. Pentru a filtra programările în funcție de numele medicului.
 
 Utilizatorul introduce numele medicului căutat.
+
 Sistemul afișează toate programările unde numele medicului corespunde căutării.
 
 5. Pentru a filtra programările în funcție de numele pacientului.
 
 Utilizatorul introduce numele pacientului căutat.
+
 Sistemul afișează toate detaliile programărilor unde numele pacientului corespunde căutării.
 
 6. Pentru a calcula suma de plată a mai multor analize ale unui pacient.
 
 Utilizatorul introduce numele pacientului.
+
 Aplicația parcurge programările, însumează prețurile analizelor asociate pacientului și afișează totalul.
 
 7. Pentru a anula o programare.
 
 Utilizatorul introduce poziția (indexul) programării pe care dorește să o anuleze.
+
 Programarea este eliminată din lista programari, iar operațiunea este confirmată cu "Ați anulat o programare!".
 
 8. Pentru a vă deconecta.
