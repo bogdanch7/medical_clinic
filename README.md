@@ -1,10 +1,10 @@
-## Clinică Medicală – Sistem de Management al Programărilor
+# Clinică Medicală – Sistem de Management al Programărilor
 
 Acest proiect reprezintă un sistem simplu de management al programărilor pentru o clinică medicală, implementat în Python. Aplicația permite utilizatorilor să-și creeze conturi, să se autentifice, să facă programări, să le vizualizeze, să le modifice, să le filtreze și să calculeze costul analizelor.
 
 ---
 
-# Funcționalități Detaliate
+## Funcționalități Detaliate
 
 Sistemul oferă un set de funcționalități pentru gestionarea completă a programărilor medicale:
 
@@ -32,9 +32,13 @@ După numele pacientului: Utilizatorul introduce numele unui pacient, iar sistem
 
 Calcularea sumei totale de plată: Permite utilizatorului să introducă numele unui pacient, iar aplicația iterează prin programările acestuia, acumulând și afișând suma totală a prețurilor analizelor.
 
+---
+
 ## Structura fișierelor
 
 main.py – Fișierul principal care conține întreaga logică a aplicației, incluzând definiția clasei programare, gestionarea utilizatorilor și a programărilor, precum și bucla principală a programului ce gestionează interacțiunea cu utilizatorul.
+
+---
 
 ## Cerințe & Rulare Locală
 
@@ -43,6 +47,8 @@ main.py – Fișierul principal care conține întreaga logică a aplicației, i
 3. Deschide un terminal sau o linie de comandă.
 4. Navighează la directorul unde ai salvat main.py.
 5. Rulează aplicația folosind comanda: python main.py.
+
+---
 
 ## Scenariul de Lucru al Aplicației
 
@@ -71,6 +77,7 @@ Aplicația listează toate programările înregistrate, prezentând detaliile co
 Utilizatorul introduce poziția numerică (indexul) programării în listă.
 Aplicația solicită apoi introducerea noilor valori pentru toate câmpurile programării respective.
 Mesajul "Ați modificat detaliile programării!" confirmă actualizarea.
+
 4. Pentru a filtra programările în funcție de numele medicului.
 
 Utilizatorul introduce numele medicului căutat.
