@@ -120,6 +120,7 @@ Dacă utilizatorul introduce o opțiune numerică invalidă (care nu se află î
 ## Realizat de
 
 Proiect realizat de [bogdanch7](https://github.com/bogdanch7)
+
 An universitar 2024–2025
 
 ---
