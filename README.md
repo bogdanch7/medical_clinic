@@ -16,8 +16,11 @@ Conectare: Verifică numele de utilizator și parola introduse față de cele î
 - Management Programări:
 
 Adăugare programare: Solicită utilizatorului să introducă detalii complete pentru o nouă programare: numele pacientului, numele medicului, data (format ZZ/LL), numele analizei, durata analizei (în minute), ora programării (HH:MM) și prețul analizei (în RON). Aceste date sunt stocate ca o instanță a clasei programare în lista globală programari.
+
 Afișare programări: Listează toate programările existente în sistem, prezentând detaliile fiecăreia într-un format lizibil: "Pacientul [nume_pacient] are o programare la doctorul [nume_doctor] în data de [data]. Numele analizei este [nume_analiza], având durata de [durata] minute de la ora [ora] și prețul de [preț] RON."
+
 Modificare detalii programare: Permite actualizarea unei programări existente. Utilizatorul specifică poziția (indexul) programării în listă, după care i se solicită să introducă noile detalii pentru fiecare câmp (nume pacient, nume doctor, dată, nume analiză, durată, oră, preț).
+
 Anulare programare: Elimină o programare din listă, specificată de utilizator prin poziția (indexul) acesteia.
 
 - Filtrare Programări:
